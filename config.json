@@ -1,0 +1,13 @@
+{
+  "server": {
+    "http_port": ":8083",
+    "ice_servers": ["stun:stun.l.google.com:19302"]
+  },
+  "streams": {
+    "H264_AAC": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtmp://171.25.232.136/5090ea43a82340e0b6ee75a5c41e08c4"
+    }
+  }
+}
